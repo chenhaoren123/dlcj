@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>产品中心</title>
+	<style>
+		body{margin:0px;}
+		#head{width:100%;min-height:110px;border-bottom:1px solid #ccc;}
+		#head #head-logo{width:1000px;height:108px;margin-left:145px;}
+		#head #head-logo #head-logo-left{width:600px;height:108px;margin-left:0px;float:left;}
+		#head #head-logo #head-logo-left #head-logo-left-a{display:block;background:url("./images/logo.png") no-repeat;width:500px;height:108px;}
+		#head #head-logo #head-logo-right{width:400px;height:108px;margin:0px;float:left;}
+		#head #head-logo #head-logo-right  #head-logo-right-top{width:400px;height:30px;margin-top:10px;color:#747474;text-align:right;font-size:14px;line-height:30px;}
+		#head #head-logo #head-logo-right  #head-logo-right-top a{text-decoration:none;color:#747474;}
+		#head #head-logo #head-logo-right  #head-logo-right-bottom{width:400px;height:32px;}
+		#head #head-logo #head-logo-right  #head-logo-right-bottom #head-logo-right-bottom-text{width:230px;height:32px;border:1px solid #0fa9eb;float:right;}
+		#head #head-logo #head-logo-right  #head-logo-right-bottom #head-logo-right-bottom-sub{width:60px;height:36px;background:#0fa9eb;border:1px solid #0fa9eb;float:right;font-size:18px;color:#fff;}
+		#link{width:1001px;height:50px;margin:0 auto;}
+		#link .link{display:block;width:143px;height:50px;text-decoration:none;font-size:18px;line-height:50px;text-align:center;color:#333333;float:left;}
+		#link .link:hover{background:#0fa9eb;color: #fff;}
+		#body{width:100%;min-height:500px;}
+		#body #body-top{width:100%;height:200px;background:url("./images/4.jpg");background-size:100%;height:200px;}
+		#body #body-left{width: 190px;height:169px;margin-left:145px;float:left;}
+		#body #body-left #body-left-top{width:190px;height:50px;background:#6fcbf3;}
+		#body #body-left #body-left-top #body-left-top-left{width:20px;height:50px;float:left;}
+		#body #body-left #body-left-top #body-left-top-right{width:100px;height:49px;border-bottom:1px solid #fff;font-size:24px;color:#fff;line-height:60px;float:left;}
+		#body #body-left #body-left-center{width:190px;height:10px;background: #6fcbf3;}
+		#body #body-left .body-left-bottom{display:block;width:190px;height:36px;background:#eee;text-indent:20px;text-decoration:none;font-size:16px;color:#000;line-height:36px;}
+		#body #body-left .body-left-bottom:hover{background:#0fa9eb;color:#fff;}
+		#body #body-right{width:780px;min-height:860px;margin-left:30px;float: left;margin-top:20px;}
+		#body #body-right #body-right-a{width:780px;height:35px;margin-bottom:30px;}
+		#body #body-right #body-right-a #body-right-a-a{width:73px;height:32px;font-size:18px;color:#0fa9eb;line-height:32px;border-bottom:3px solid #0fa9eb;float:left;}
+		#body #body-right #body-right-a #body-right-a-b{width:707px;height:33px;border-bottom:1px solid #ccc;float:left;}
+		#body #body-right #body-right-b ul{margin:0px;padding:0px;list-style:none;}
+
+		#body #body-right #body-right-b .body-right-b-a{width:252px;height:228px;border:1px solid #ccc;float:left;margin-bottom:20px;margin-right:5px;}
+		#body #body-right #body-right-b #body-right-b-b{display:block;width:250px;height:226px;background:url("./images/201603250936263098.png") no-repeat 0px 0px;background-size:250px 180px;text-decoration:none;text-align:center;line-height:400px;font-size:14px;color:#333;}
+		#body #body-right #body-right-b #body-right-b-c{display:block;width:250px;height:226px;background:url("./images/201603250937579508.png") no-repeat 0px 0px;background-size:250px 180px;text-decoration:none;text-align:center;line-height:400px;font-size:14px;color:#333;}
+		#body #body-right #body-right-b #body-right-b-d{display:block;width:250px;height:226px;background:url("./images/201603281009528505.png") no-repeat 0px 0px;background-size:250px 180px;text-decoration:none;text-align:center;line-height:400px;font-size:14px;color:#333;}
+		#body #body-right #body-right-b #body-right-b-e{display:block;width:250px;height:226px;background:url("./images/201603250945283379.png") no-repeat 0px 0px;background-size:250px 180px;text-decoration:none;text-align:center;line-height:400px;font-size:14px;color:#333;}
+		#body #body-right #body-right-b #body-right-b-f{display:block;width:250px;height:226px;background:url("./images/201603250944399464.jpg") no-repeat 0px 0px;background-size:250px 180px;text-decoration:none;text-align:center;line-height:400px;font-size:14px;color:#333;}
+		#body #body-right #body-right-b #body-right-b-g{display:block;width:250px;height:226px;background:url("./images/201603241608447901.jpg") no-repeat 0px 0px;background-size:250px 180px;text-decoration:none;text-align:center;line-height:400px;font-size:14px;color:#333;}
+		#body #body-right #body-right-b #body-right-b-h{display:block;width:250px;height:226px;background:url("./images/201603241634323387.png") no-repeat 0px 0px;background-size:250px 180px;text-decoration:none;text-align:center;line-height:400px;font-size:14px;color:#333;}
+		#body #body-right #body-right-b #body-right-b-i{display:block;width:250px;height:226px;background:url("./images/201603291707169883.png") no-repeat 0px 0px;background-size:250px 180px;text-decoration:none;text-align:center;line-height:400px;font-size:14px;color:#333;}
+		#body #body-right #body-right-b #body-right-b-j{display:block;width:250px;height:226px;background:url("./images/201603291708055767.png") no-repeat 0px 0px;background-size:250px 180px;text-decoration:none;text-align:center;line-height:400px;font-size:14px;color:#333;}
+
+		#body #body-right #body-right-c{width:780px;height:60px;text-align:center;}
+		#body #body-right #body-right-c #body-right-c-c{color:#666;background:#f3f3f3;font-size:14px;border: 2px solid #f3f3f3;}
+		#body #body-right #body-right-c #body-right-c-b{background:#0f9aeb;color:#fff;border:2px solid #0f9aeb;font-size:14px;}
+		#body #body-right #body-right-c .body-right-c-a{background:#f3f3f3;color:#666;font-size:14px;border:2px solid #f3f3f3;text-decoration:none;}
+		#body #body-right #body-right-c .body-right-c-a:hover{background:#f3f3f3;color:#666;font-size:14px;border:2px solid #666;text-decoration:none;}
+		#footer{width: 100%;height: 150px;background:#0fa9eb;font-size:14px;line-height:36px;text-align: center;clear: both;margin-top:50px;color:#fff;}
+		#footer a{text-decoration:none;color: #fff;}
+	</style>
+	</head>
+	<body>
+		<div id="head">
+			<div id="head-logo">
+				<div id="head-logo-left"><a href="" id="head-logo-left-a"></a></div>
+				<div id="head-logo-right">
+					<div id="head-logo-right-top"><a href="">设为首页</a>丨<a href="">加入收藏</a> </div>
+					<div id="head-logo-right-bottom">
+						<input type="submit" name="sub" id="head-logo-right-bottom-sub" value="搜索"/>
+						<input type="text" id="head-logo-right-bottom-text" placeholder="请输入关键字......"/>
+						
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div id="link">
+			    <a href="" class="link">网站首页</a>
+			    <a href="" class="link">关于诚技</a>
+			    <a href="" class="link">新闻资讯</a>
+			    <a href="" class="link">产品中心</a>
+			    <a href="" class="link">成功案例</a>
+			    <a href="" class="link">人才招聘</a>
+			    <a href="" class="link">联系我们</a>
+		</div>
+		<div id="body">
+			<div id="body-top"></div>
+			<div id="body-left">
+				<div id="body-left-top">
+					<div id="body-left-top-left"></div>
+					<div id="body-left-top-right">产品中心</div>
+					
+				</div>
+				<div id="body-left-center"></div>
+				<a href="" class="body-left-bottom">>主要产品</a>
+				<a href="" class="body-left-bottom">>大修改造</a>
+				<a href="" class="body-left-bottom">>代理产品</a>
+			</div>
+			<div id="body-right">
+				<div id="body-right-a">
+					<div id="body-right-a-a">产品中心</div>
+					<div id="body-right-a-b"></div>
+				</div>
+				<div id="body-right-b">
+					<ul>
+						<li class="body-right-b-a"><a href="" id="body-right-b-b">工作台夹紧器</a></li>
+						<li class="body-right-b-a"><a href="" id="body-right-b-c">自移式夹紧器</a></li>
+						<li class="body-right-b-a"><a href="" id="body-right-b-d">机械压力机大修改造</a></li>
+						<li class="body-right-b-a"><a href="" id="body-right-b-e">过载保护阀</a></li>
+						<li class="body-right-b-a"><a href="" id="body-right-b-f">气控换向阀</a></li>
+						<li class="body-right-b-a"><a href="" id="body-right-b-g">液压站</a></li>
+						<li class="body-right-b-a"><a href="" id="body-right-b-h">机械压力机搬迁</a></li>
+						<li class="body-right-b-a"><a href="" id="body-right-b-i">自动化设计改造</a></li>
+						<li class="body-right-b-a"><a href="" id="body-right-b-j">压力机备件</a></li>
+
+					</ul>
+				</div>
+				<div id="body-right-c">
+				<span id="body-right-c-c">上一页</span>&nbsp;<span id="body-right-c-b"">1</span>&nbsp;<a href="" class="body-right-c-a">2</a>&nbsp;<a href="" class="body-right-c-a">下一页 </a>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<p><a href="">关于诚技</a> | <a href="">新闻资讯</a> | <a href="">产品中心</a> | <a href="">成功案例</a> | <a href="./demodlcj4.html">人才招聘</a> | <a href="./demodlcj3.html">联系我们</a><br/>
+				Copyright © 大连诚技机电设备有限公司 版权所有 辽ICP备13015234号-2<br/>
+				网站设计：<a href="">仟亿科技</a></p>
+		</div>
+	</body>
+</html>
